@@ -14,12 +14,15 @@ const Projects = () => {
         </motion.h2>
         <div>
             {PROJECTS.map((project, index)=> (
+                
                 <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+                    <a href={project.link}>
                     <motion.div
                     whileInView={{ opacity:1, x:0 }}
                     initial = {{ opacity: 0, x: -100 }}
                     transition={{  duration: 1 }}
                      className="w-full lg:w-1/4">
+                    
                     <img src={project.image} alt={project.title} width={250} height={250} 
                         className="mb-6 rounded"/>
                     </motion.div>
@@ -36,11 +39,12 @@ const Projects = () => {
                         {project.description}
                     </p>
                     {project.technologies.map((tech, index)=> (
-                        <span key ={index} className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-900">
+                        <span key ={index} className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-400">
                             {tech}
                         </span>
                     ))}
                     </motion.div>
+                    </a>
                 </div>
             ))}
         </div>
