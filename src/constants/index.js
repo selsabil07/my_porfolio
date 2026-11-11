@@ -44,13 +44,14 @@ export const PROJECTS = [
     technologies: ["React", "tailwind", "Appwrite"],
     link: 'https://connectify-nwfj.vercel.app/sign-in'
   },
-  // {
-  //   title: "Portfolio Website",
-  //   image: project3,
-  //   description:
-  //     "A personal portfolio website showcasing projects, skills, and contact information.",
-  //   technologies: ["React", "Tailwind"],
-  // },
+  {
+    title: "Sensey",
+    image: sensey,
+    description:
+      "A school management platform to make students and teachers closer.",
+    technologies: ["React", "Tailwind", "Supabase"],
+    link: 'https://sensey-sable.vercel.app/'
+  },
   
 ];
 
