@@ -25,7 +25,7 @@ const Hero = () => {
       <div className='flex flex-wrap lg:flex-row-reverse'>
         <div className='w-full lg:w-1/2'>
         <div className='flex justify-center lg:p-8'>
-            <motion.img src={ProfilePic} alt='profile pic '
+            <motion.img src={me} alt='profile pic '
                 className='border border-stone-900 rounded-3xl'
                 width={350}
                 height={650}
@@ -58,7 +58,7 @@ const Hero = () => {
                 </motion.p>
                 <motion.a 
                 variants={childVariants}
-                href="/cvv.pdf"
+                href="/selsabil djazouli.pdf"
                 target='_blanck'
                 rel='..'
                 download
