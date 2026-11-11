@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
-// import project3 from "../assets/projects/project-3.webp";
+import sensey from "../assets/projects/sensey.png";
 // import project4 from "../assets/projects/project-4.webp";
+
 
 export const HERO_CONTENT = `I'am full-stack web developer, and passionate person about programming and tech relateds, i enjoy working with the front end technologies like Next.js , React and tailwind, as well as back-end solutions using laravel. Passionate about writing clean and efficient code, designing databases and Adept at problem-solving.
 Always open to learn new technologies and contribute to meaningful projects.`;
